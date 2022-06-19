@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/question_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_title"
+            android:layout_centerHorizontal="true"
+            tools:layout_width="wrap_content" />
+
+        <TextView
+            android:id="@+id/question_description_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/question_label"
+            tools:text="Lorem Ipsum" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_answer_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Possivel resposta 1" />
+
+        <Button
+            android:id="@+id/button_answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Possivel resposta 2" />
+
+        <Button
+            android:id="@+id/button_answer_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Possivel resposta 3" />
+
+        <Button
+            android:id="@+id/button_answer_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Possivel resposta 4" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="16dp"
+        android:text="@string/next_question"
+        tools:text="@string/next_question" />
+
+
+</FrameLayout>

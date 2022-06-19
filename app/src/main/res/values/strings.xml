@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloWorldApplication</string>
+    <string name="question_title">Pergunta: </string>
+    <string name="wrong_answer">Resposta errada</string>
+    <string name="right_answer">Resposta certa</string>
+    <string name="next_question">Próxima pergunta</string>
+    <string name="total">Total: </string>
+    <string name="right_answer_label">Acertos: </string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "986185913910",
+    "project_id": "desenvolvimentomobileuni7ead",
+    "storage_bucket": "desenvolvimentomobileuni7ead.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986185913910:android:9b0420e0aa96b228d52a97",
+        "android_client_info": {
+          "package_name": "br.com.companyname.helloworldapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986185913910-ikmgvm7snqscig3145nshkr331ir9sjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Opo_k6tgrSkRIsF_5MxqCe7xy_R3cRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986185913910-ikmgvm7snqscig3145nshkr331ir9sjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
